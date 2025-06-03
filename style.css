@@ -1,0 +1,55 @@
+body {
+    background-color: #000;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #444;
+}
+
+header h1 {
+    color: #f5f5f5;
+    font-size: 3em;
+}
+
+header p {
+    color: #ccc;
+    font-style: italic;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+.descricao, .suspiros, .segredo {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "🦇 ";
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #444;
+    color: #777;
+}
